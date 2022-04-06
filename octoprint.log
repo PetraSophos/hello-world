@@ -1,0 +1,1118 @@
+2022-04-05 17:22:47,209 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-04-05 17:22:47,218 - octoprint.server - INFO - --- Log roll over detected ---------------------------------------------------
+2022-04-05 17:22:47,219 - octoprint.server - INFO - OctoPrint 1.7.3
+2022-04-05 17:22:47,220 - octoprint.plugin.core - INFO - 22 plugin(s) registered with the system:
+|  Access Anywhere - The Spaghetti Detective (1.8.12) = C:\Users\kmcna\venv\lib\site-packages\octoprint_thespaghettidetective
+|  Action Command Notification Support (bundled) = C:\Users\kmcna\venv\Lib\site-packages\octoprint\plugins\action_command_notification
+|  Action Command Prompt Support (bundled) = C:\Users\kmcna\venv\Lib\site-packages\octoprint\plugins\action_command_prompt
+|  Announcement Plugin (bundled) = C:\Users\kmcna\venv\Lib\site-packages\octoprint\plugins\announcements
+|  Anonymous Usage Tracking (bundled) = C:\Users\kmcna\venv\Lib\site-packages\octoprint\plugins\tracking
+|  Application Keys Plugin (bundled) = C:\Users\kmcna\venv\Lib\site-packages\octoprint\plugins\appkeys
+|  Backup & Restore (bundled) = C:\Users\kmcna\venv\Lib\site-packages\octoprint\plugins\backup
+|  Bed Visualizer (1.1.1) = C:\Users\kmcna\venv\lib\site-packages\octoprint_bedlevelvisualizer
+|  Core Wizard (bundled) = C:\Users\kmcna\venv\Lib\site-packages\octoprint\plugins\corewizard
+|  Creality-2x-temperature-reporting-fix (0.0.4) = C:\Users\kmcna\venv\lib\site-packages\octoprint_ender3v2tempfix
+|  Discovery (bundled) = C:\Users\kmcna\venv\Lib\site-packages\octoprint\plugins\discovery
+|  Error Tracking (bundled) = C:\Users\kmcna\venv\Lib\site-packages\octoprint\plugins\errortracking
+|  Event Manager (bundled) = C:\Users\kmcna\venv\Lib\site-packages\octoprint\plugins\eventmanager
+|  File Check (2021.2.23) (bundled) = C:\Users\kmcna\venv\lib\site-packages\octoprint_file_check
+|  Firmware Check (2021.10.11) (bundled) = C:\Users\kmcna\venv\lib\site-packages\octoprint_firmware_check
+|  GCode Viewer (bundled) = C:\Users\kmcna\venv\Lib\site-packages\octoprint\plugins\gcodeviewer
+|  Logging (bundled) = C:\Users\kmcna\venv\Lib\site-packages\octoprint\plugins\logging
+|  Octolapse (0.4.1) = C:\Users\kmcna\venv\lib\site-packages\octoprint_octolapse
+|  Plugin Manager (bundled) = C:\Users\kmcna\venv\Lib\site-packages\octoprint\plugins\pluginmanager
+|  PrintTimeGenius Plugin (2.2.8) = C:\Users\kmcna\venv\lib\site-packages\octoprint_PrintTimeGenius
+|  Software Update (bundled) = C:\Users\kmcna\venv\Lib\site-packages\octoprint\plugins\softwareupdate
+|  Virtual Printer (bundled) = C:\Users\kmcna\venv\Lib\site-packages\octoprint\plugins\virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2022-04-05 17:22:47,224 - octoprint.environment - INFO - Detected environment is Python 3.10.2 under Windows (win32). Details:
+|  hardware:
+|    cores: 8
+|    freq: 3701.0
+|    ram: 17162104832
+|  os:
+|    bits: 64
+|    id: windows
+|    platform: win32
+|  python:
+|    pip: 21.2.4
+|    version: 3.10.2
+|    virtualenv: C:\Users\kmcna\venv
+2022-04-05 17:22:47,225 - octoprint.server - INFO - ------------------------------------------------------------------------------
+2022-04-05 17:22:53,270 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 1381519, 'printer_state': 'PRINTING'}
+2022-04-05 17:37:39,802 - octoprint.plugins.tracking - INFO - Sent tracking event pong, payload: {'version': '1.7.3', 'os': 'windows', 'bits': 64, 'python': '3.10.2', 'pip': '21.2.4', 'cores': 8, 'freq': 3701.0, 'ram': 17162104832, 'plugins': 'thespaghettidetective:1.8.12,printtimegenius:2.2.8,octolapse:0.4.1,ender3v2tempfix:0.0.4,bedlevelvisualizer:1.1.1'}
+2022-04-05 17:37:47,223 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-04-05 17:37:53,283 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 1382419, 'printer_state': 'PRINTING'}
+2022-04-05 17:52:47,234 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-04-05 17:52:53,242 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 1383319, 'printer_state': 'PRINTING'}
+2022-04-05 18:07:23,750 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 82559, current line = 82563
+| Last lines in terminal:
+| Send: N82555 G0 X98.713 Y111.198*18
+| Recv: ok
+| Send: N82556 G0 X99.715 Y111.172*18
+| Recv: ok
+| Send: N82557 G0 X100.734 Y111.225*32
+| Recv: echo:Unknown command: "#U̾܃)"
+| Recv: ok
+| Send: N82558 G0 X102.209 Y111.456*36
+| Recv:   TT::199.80199.80  //200.00200.00  BB::60.0060.00  //60.0060.00  @@::7272  BB@@::3232
+| Recv: 
+| Recv: ok
+| Send: N82559 G0 X103.468 Y111.888*42
+| Recv: ok
+| Send: N82560 G0 X104.397 Y112.478*32
+| Recv: ok
+| Send: N82561 G0 X105.234 Y113.244*32
+| Recv: ok
+| Send: N82562 G0 X105.972 Y114.164*44
+| Recv: Error:No Checksum with line number, Last Line: 82558
+| Recv: Resend: 82559
+2022-04-05 18:07:23,760 - octoprint.util.comm - INFO - Ignoring resend request for line 82559, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:07:23,855 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 82561, current line = 82566
+| Last lines in terminal:
+| Recv: ok
+| Send: N82559 G0 X103.468 Y111.888*42
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 82558
+| Recv: Resend: 82559
+| Recv: ok
+| Send: N82560 G0 X104.397 Y112.478*32
+| Recv: ok
+| Send: N82561 G0 X105.234 Y113.244*32
+| Recv: ok
+| Send: N82562 G0 X105.972 Y114.164*44
+| Recv: echo:Unknown command: "ÿðÿý»ýÿÿÿïÿÿýÿÿÿó_©­§?ãÿ|ýÿ_ÿí¿ï¯ÿ/ÿ­ÿïïÿëÖ»wíïÿÿ­ûóÖ¿ïþý÷ùï¿ïïïïÿÿÿ÷¯ßïÍÿý¾w-½¿ÿïÿþ¬s½"
+| Recv: ok
+| Send: N82563 G0 X106.714 Y115.479*40
+| Recv: ok
+| Send: N82564 G0 X108.313 Y119*58
+| Recv: echo:Unknown command: "¬"
+| Recv: ok
+| Send: N82565 G0 X108.558 Y119*50
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 82560
+| Recv: Resend: 82561
+2022-04-05 18:07:23,867 - octoprint.util.comm - INFO - Ignoring resend request for line 82561, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:07:24,117 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 82562, current line = 82567
+| Last lines in terminal:
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 82560
+| Recv: Resend: 82561
+| Recv: ok
+| Send: N82561 G0 X105.234 Y113.244*32
+| Recv: echo:Unknown command: " "
+| Recv: ok
+| Send: N82562 G0 X105.972 Y114.164*44
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 82560
+| Recv: Resend: 82561
+| Recv: ok
+| Send: N82563 G0 X106.714 Y115.479*40
+| Recv: ok
+| Send: N82564 G0 X108.313 Y119*58
+| Recv: echo:Unknown command: "±/áz!Ë)J¥Z¥q¯MÊ­H)K9.¥¨(H	JH)"
+| Recv: ok
+| Send: N82565 G0 X108.558 Y119*50
+| Recv: ok
+| Send: N82566 G1 F1500 E2198.16353*62
+| Recv: Error:checksum mismatch, Last Line: 82561
+| Recv: Resend: 82562
+2022-04-05 18:07:24,135 - octoprint.util.comm - INFO - Ignoring resend request for line 82562, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:07:24,150 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 82562, current line = 82567
+| Last lines in terminal:
+| Send: N82566 G1 F1500 E2198.16353*62
+| Recv: Error:checksum mismatch, Last Line: 82561
+| Recv: Resend: 82562
+| Recv: ok
+| Send: N82562 G0 X105.972 Y114.164*44
+| Recv: echo:Unknown command: "HHD()bi¨j	O²Ê"
+| Recv: ok
+| Send: N82563 G0 X106.714 Y115.479*40
+| Recv: echo:Unknown command: "`h"
+| Recv: ok
+| Send: N82564 G0 X108.313 Y119*58
+| Recv: echo:Unknown command: "©B"
+| Recv: ok
+| Send: N82565 G0 X108.558 Y119*50
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 82561
+| Recv: Resend: 82562
+| Recv: ok
+| Send: N82566 G1 F1500 E2198.16353*62
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 82561
+| Recv: Resend: 82562
+2022-04-05 18:07:47,240 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-04-05 18:07:53,299 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 1384219, 'printer_state': 'PRINTING'}
+2022-04-05 18:10:00,292 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 86995, current line = 86998
+| Last lines in terminal:
+| Recv: ok
+| Send: N86989 G0 F9000 X87.708 Y133.4*116
+| Recv: ok
+| Send: N86990 G1 F1500 X86.373 Y133.4 E2306.34195*15
+| Recv: ok
+| Send: N86991 G0 F9000 X87.245 Y133.2*119
+| Recv: ok
+| Send: N86992 G1 F1500 X87.544 Y133 E2306.35915*21
+| Recv: ok
+| Send: N86993 G0 F9000 X87.454 Y133*111
+| Recv: ok
+| Send: N86994 G1 F1500 E2300.35915*49
+| Recv: ok
+| Send: N86995 G0 F300 X87.454 Y133 Z8*17
+| Recv: ok
+| Send: N86996 G0 F9000 X95.442 Y124.711*113
+| Recv: ok
+| Send: N86997 G0 X95.445 Y112.578*16
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 86994
+| Recv: Resend: 86995
+2022-04-05 18:10:00,303 - octoprint.util.comm - INFO - Ignoring resend request for line 86995, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:10:02,352 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 87024, current line = 87027
+| Last lines in terminal:
+| Recv: ok
+| Send: N87018 G1 X129.344 Y130.494 E2306.46245*80
+| Recv: ok
+| Send: N87019 G1 X129.612 Y130.24 E2306.47473*106
+| Recv: ok
+| Send: N87020 G1 X129.975 Y129.83 E2306.49295*107
+| Recv: ok
+| Send: N87021 G1 X130.28 Y129.366 E2306.51141*104
+| Recv: ok
+| Send: N87022 G1 X130.507 Y128.855 E2306.53001*94
+| Recv: ok
+| Send: N87023 G1 X130.636 Y128.305 E2306.5488*102
+| Recv: ok
+| Send: N87024 G1 X130.67 Y127.739 E2306.56766*98
+| Recv: ok
+| Send: N87025 G1 X130.618 Y127.165 E2306.58683*86
+| Recv: ok
+| Send: N87026 G1 X130.497 Y126.577 E2306.6068*110
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 87023
+| Recv: Resend: 87024
+2022-04-05 18:10:02,364 - octoprint.util.comm - INFO - Ignoring resend request for line 87024, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:10:03,394 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 87048, current line = 87052
+| Last lines in terminal:
+| Recv: ok
+| Send: N87043 G1 X121.647 Y115.619 E2307.08122*89
+| Recv: ok
+| Send: N87044 G1 X120.842 Y115.028 E2307.11444*93
+| Recv: ok
+| Send: N87045 G1 X120.44 Y114.755 E2307.1306*94
+| Recv: ok
+| Send: N87046 G1 X120.046 Y114.505 E2307.14612*92
+| Recv: ok
+| Send: N87047 G1 X119.66 Y114.279 E2307.161*111
+| Recv: ok
+| Send: N87048 G1 X119.279 Y114.076 E2307.17535*82
+| Recv: ok
+| Send: N87049 G1 X118.675 Y113.791 E2307.19757*91
+| Recv: ok
+| Send: N87050 G1 X118.079 Y113.549 E2307.21896*87
+| Recv: ok
+| Send: N87051 G1 X117.498 Y113.352 E2307.23937*86
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 87047
+| Recv: Resend: 87048
+2022-04-05 18:10:03,419 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 87048, current line = 87052
+| Last lines in terminal:
+| Recv: ok
+| Send: N87049 G1 X118.675 Y113.791 E2307.19757*91
+| Recv: ok
+| Send: N87050 G1 X118.079 Y113.549 E2307.21896*87
+| Recv: ok
+| Send: N87051 G1 X117.498 Y113.352 E2307.23937*86
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 87047
+| Recv: Resend: 87048
+| Recv: ok
+| Send: N87048 G1 X119.279 Y114.076 E2307.17535*82
+| Recv: ok
+| Send: N87049 G1 X118.675 Y113.791 E2307.19757*91
+| Recv: echo:Unknown command: ".076 E2307.17535"
+| Recv: ok
+| Send: N87050 G1 X118.079 Y113.549 E2307.21896*87
+| Recv: echo:Unknown command: ".791 E2307.19757"
+| Recv: ok
+| Send: N87051 G1 X117.498 Y113.352 E2307.23937*86
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 87047
+| Recv: Resend: 87048
+2022-04-05 18:10:03,442 - octoprint.util.comm - INFO - Ignoring resend request for line 87052 == current line, we haven't sent that yet so the printer got N-1 twice from us, probably due to a timeout
+2022-04-05 18:10:03,456 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 87052, current line = 87054
+| Last lines in terminal:
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 87047
+| Recv: Resend: 87048
+| Recv: ok
+| Recv: ok
+| Send: N87048 G1 X119.279 Y114.076 E2307.17535*82
+| Recv: ok
+| Send: N87049 G1 X118.675 Y113.791 E2307.19757*91
+| Recv: ok
+| Send: N87050 G1 X118.079 Y113.549 E2307.21896*87
+| Recv: ok
+| Send: N87051 G1 X117.498 Y113.352 E2307.23937*86
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 87051
+| Recv: Resend: 87052
+| Recv: ok
+| Send: N87052 G1 X116.936 Y113.207 E2307.25867*94
+| Recv: echo:Unknown command: "7049 G1 X118.675 Y113.791 E2307.19757"
+| Recv: ok
+| Send: N87053 G1 X116.395 Y113.111 E2307.27695*89
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 87051
+| Recv: Resend: 87052
+2022-04-05 18:10:03,538 - octoprint.util.comm - INFO - Ignoring resend request for line 87057 == current line, we haven't sent that yet so the printer got N-1 twice from us, probably due to a timeout
+2022-04-05 18:12:17,689 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 91018, current line = 91025
+| Last lines in terminal:
+| Recv: ok
+| Send: N91018 G1 F3000 X133.947 Y108.777 E2411.93606*63
+| Recv: echo:Unknown command: "¤±{¯#Öüò¹%õóòëÕõì}Å«¥ÿý®¯ÿúíï~­üEýN­JGµuí½Õì¿_ùî¯ï¿­«¬êW"
+| Recv: ok
+| Send: N91019 G0 F9000 X133.933 Y105.8*67
+| Recv: ok
+| Send: N91020 G0 X133.902 Y105.8*36
+| Recv:   TT::199.57199.57  //200.00200.00  BB::60.0060.00  //60.0060.00  @@::7878  BB@@::3333
+| Recv: 
+| Recv: ok
+| Send: N91021 G1 F1500 X133.669 Y105.6 E2411.94382*51
+| Recv: ok
+| Send: N91022 G1 X133.786 Y105 E2411.95926*79
+| Recv: ok
+| Send: N91023 G0 F9000 X133.834 Y104.999*76
+| Recv: echo:Unknown command: "947 Y108.777 E2411.93606"
+| Recv: ok
+| Send: N91024 G0 X134.071 Y104*61
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 91017
+| Recv: Resend: 91018
+2022-04-05 18:12:17,708 - octoprint.util.comm - INFO - Ignoring resend request for line 91018, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:12:17,716 - octoprint.util.comm - INFO - Ignoring resend request for line 91018, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:12:17,727 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 91018, current line = 91026
+| Last lines in terminal:
+| Send: N91020 G0 X133.902 Y105.8*36
+| Recv: echo:Unknown command: "9 Y105.6 E2411.94382"
+| Recv: ok
+| Send: N91021 G1 F1500 X133.669 Y105.6 E2411.94382*51
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 91017
+| Recv: Resend: 91018
+| Recv: ok
+| Send: N91022 G1 X133.786 Y105 E2411.95926*79
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 91017
+| Recv: Resend: 91018
+| Recv: ok
+| Send: N91023 G0 F9000 X133.834 Y104.999*76
+| Recv: echo:Unknown command: "67"
+| Recv: ok
+| Send: N91024 G0 X134.071 Y104*61
+| Recv: echo:Unknown command: ".6 E2411.94382"
+| Recv: ok
+| Send: N91025 G0 X134.202 Y104*58
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 91017
+| Recv: Resend: 91018
+2022-04-05 18:12:17,736 - octoprint.util.comm - INFO - Ignoring resend request for line 91018, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:12:17,744 - octoprint.util.comm - INFO - Ignoring resend request for line 91018, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:12:17,761 - octoprint.util.comm - INFO - Ignoring resend request for line 91018, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:12:17,776 - octoprint.util.comm - INFO - Ignoring resend request for line 91018, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:12:17,794 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 91018, current line = 91026
+| Last lines in terminal:
+| Send: N91020 G0 X133.902 Y105.8*36
+| Recv: echo:Unknown command: "1024 G0 X134.071 Y104"
+| Recv: ok
+| Send: N91021 G1 F1500 X133.669 Y105.6 E2411.94382*51
+| Recv: echo:Unknown command: "7 Y108.777 E2411.93606"
+| Recv: ok
+| Send: N91022 G1 X133.786 Y105 E2411.95926*79
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 91017
+| Recv: Resend: 91018
+| Recv: ok
+| Send: N91023 G0 F9000 X133.834 Y104.999*76
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 91017
+| Recv: Resend: 91018
+| Recv: ok
+| Send: N91024 G0 X134.071 Y104*61
+| Recv: echo:Unknown command: "411.94382"
+| Recv: ok
+| Send: N91025 G0 X134.202 Y104*58
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 91017
+| Recv: Resend: 91018
+2022-04-05 18:12:17,843 - octoprint.util.comm - INFO - Ignoring resend request for line 91018, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:12:17,852 - octoprint.util.comm - INFO - Ignoring resend request for line 91018, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:12:17,873 - octoprint.util.comm - INFO - Ignoring resend request for line 91018, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:12:17,884 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 91018, current line = 91026
+| Last lines in terminal:
+| Recv: echo:Unknown command: "·=Zýýwýýs~þÿ¿ÿÿÿûÿÿ¿õïÿÿwÿÿÿÿÿÿ½¿{¿ÿ½ïïÝÅ?ý¿ë¨W«s¾?]¿¯¿u!ÿÝýÿýýý¾ÿõo¿ÿ¿ÿÿÿÿÿÿ¿ÿÿÿÿýýÿùÿ÷¿«¿"
+| Send: N91020 G0 X133.902 Y105.8*36
+| Recv: ok
+| Send: N91021 G1 F1500 X133.669 Y105.6 E2411.94382*51
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 91017
+| Recv: Resend: 91018
+| Recv: ok
+| Send: N91022 G1 X133.786 Y105 E2411.95926*79
+| Recv: echo:Unknown command: "947 Y108.777 E2411.93606"
+| Recv: ok
+| Send: N91023 G0 F9000 X133.834 Y104.999*76
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 91017
+| Recv: Resend: 91018
+| Recv: ok
+| Recv: echo:Unknown command: "91021 G1 F1500 X133.669 Y105.6 E2411.94382"
+| Send: N91024 G0 X134.071 Y104*61
+| Recv: ok
+| Send: N91025 G0 X134.202 Y104*58
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 91017
+| Recv: Resend: 91018
+2022-04-05 18:12:17,889 - octoprint.util.comm - INFO - Ignoring resend request for line 91018, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:12:27,096 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 91206, current line = 91208
+| Last lines in terminal:
+| Send: N91199 G0 F9000 X123.804 Y109.605*73
+| Recv: ok
+| Send: N91200 G0 X126.003 Y109.406*46
+| Recv: ok
+| Send: N91201 G0 X126.003 Y109.4*41
+| Recv: ok
+| Send: N91202 G1 F1500 X126.613 Y109.4 E2413.01343*52
+| Recv: ok
+| Send: N91203 G0 F9000 X128.695 Y109.397*74
+| Recv: ok
+| Recv: ok
+| Send: N91204 G0 X128.708 Y109.4*46
+| Recv: ok
+| Send: N91205 G1 F1500 X129.8 Y109.4 E2413.03159*59
+| Recv: ok
+| Send: N91206 G0 F9000 X129.366 Y109.2*72
+| Recv: ok
+| Send: N91207 G1 F1500 X129.587 Y109 E2413.04819*43
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 91205
+| Recv: Resend: 91206
+2022-04-05 18:13:32,578 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 93159, current line = 93165
+| Last lines in terminal:
+| Recv: ok
+| Send: N93157 G0 X128.328 Y108.935*37
+| Recv: ok
+| Send: N93158 G0 X129.26 Y108.586*18
+| Recv: ok
+| Send: N93159 G0 X132.344 Y106.975*32
+| Recv: ok
+| Send: N93160 G1 F1500 E2465.30611*60
+| Recv: echo:Unknown command: "jA²,Ë!7Æ)¤0F»åºn2õp¯­»OõÝÿÃµíÿïïÿÿÕïÿüï÷÷ÿõ¯ÿÕ¿¯÷¿¿ïï¯ÿÿ¿oÿý¿õÝ½¿ÿ¿ÿßÿÓ¿»o¯½ûûj¯þ§-«µ"
+| Recv: ok
+| Send: N93161 G1 F3000 X133.947 Y108.577 E2465.38148*63
+| Recv: ok
+| Send: N93162 G0 F9000 X133.933 Y105.8*76
+| Recv: ok
+| Send: N93163 G0 X133.902 Y105.8*32
+| Recv: echo:Unknown command: "í+"
+| Recv: ok
+| Send: N93164 G1 F1500 X133.669 Y105.6 E2465.38924*50
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 93158
+| Recv: Resend: 93159
+2022-04-05 18:13:32,584 - octoprint.util.comm - INFO - Ignoring resend request for line 93159, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:13:33,122 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 93163, current line = 93170
+| Last lines in terminal:
+| Send: N93162 G0 F9000 X133.933 Y105.8*76
+| Recv: echo:Unknown command: "2465.306947 Y108.577 E2465.38148"
+| Recv: ok
+| Send: N93163 G0 X133.902 Y105.8*32
+| Recv: echo:Unknown command: "00 X133.669 Y105.6 E2465.38924"
+| Recv: ok
+| Send: N93164 G1 F1500 X133.669 Y105.6 E2465.38924*50
+| Recv: ok
+| Send: N93165 G1 X133.786 Y105 E2465.40468*67
+| Recv: ok
+| Send: N93166 G0 F9000 X133.834 Y104.999*78
+| Recv: ok
+| Send: N93167 G0 X134.071 Y104*57
+| Recv: ok
+| Send: N93168 G0 X134.202 Y104*48
+| Recv: echo:Unknown command: "3.902 Y105.8"
+| Recv: ok
+| Send: N93169 G1 F1500 X134.066 Y103.8 E2465.41226*62
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 93162
+| Recv: Resend: 93163
+2022-04-05 18:13:33,132 - octoprint.util.comm - INFO - Ignoring resend request for line 93163, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:13:39,524 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 93288, current line = 93291
+| Last lines in terminal:
+| Recv: ok
+| Send: N93283 G1 F1500 X115.146 Y109.2 E2465.87414*52
+| Recv: ok
+| Send: N93284 G0 F9000 X114.693 Y109.4*71
+| Recv: ok
+| Send: N93285 G1 F1500 X115.481 Y109.4 E2465.88725*52
+| Recv: ok
+| Send: N93286 G0 F9000 X113.203 Y109.6*77
+| Recv: ok
+| Send: N93287 G1 F1500 X110.411 Y109.6 E2465.93368*63
+| Recv: ok
+| Send: N93288 G0 F9000 X110.398 Y109.8*77
+| Recv:   TT::200.56200.56  //200.00200.00  BB::60.0160.01  //60.0060.00  @@::5656  BB@@::2929
+| Recv: 
+| Recv: ok
+| Send: N93289 G1 F1500 X113.217 Y109.8 E2465.98056*57
+| Recv: ok
+| Send: N93290 G0 F9000 X113.19 Y109.4*113
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 93287
+| Recv: Resend: 93288
+2022-04-05 18:13:39,531 - octoprint.util.comm - INFO - Ignoring resend request for line 93288, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:13:47,775 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 93419, current line = 93421
+| Last lines in terminal:
+| Recv: ok
+| Send: N93413 G1 F3000 X126.987 Y131.327 E2466.65897*62
+| Recv: ok
+| Send: N93414 G1 X127.377 Y131.317 E2466.67194*83
+| Recv: ok
+| Send: N93415 G1 X127.733 Y131.281 E2466.68384*84
+| Recv:   TT::200.00200.00  //200.00200.00  BB::60.0060.00  //60.0060.00  @@::6868  BB@@::3232
+| Recv: 
+| Recv: ok
+| Send: N93416 G1 X128.086 Y131.208 E2466.69583*80
+| Recv: ok
+| Send: N93417 G1 X128.429 Y131.09 E2466.7079*91
+| Recv: ok
+| Send: N93418 G1 X128.753 Y130.931 E2466.7199*102
+| Recv: ok
+| Send: N93419 G1 X129.053 Y130.732 E2466.73187*80
+| Recv: ok
+| Send: N93420 G1 X129.333 Y130.504 E2466.74388*82
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 93418
+| Recv: Resend: 93419
+2022-04-05 18:15:02,424 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 95576, current line = 95583
+| Last lines in terminal:
+| Send: N95574 G0 X128.243 Y130.753*47
+| Recv: ok
+| Send: N95575 G0 X126.45 Y131.29*47
+| Recv: ok
+| Send: N95576 G1 F1500 E2520.06204*60
+| Recv: ok
+| Send: N95577 G1 F3000 X126.987 Y131.327 E2520.07994*62
+| Recv: ok
+| Send: N95578 G1 X127.377 Y131.317 E2520.09292*80
+| Recv: ok
+| Send: N95579 G1 X127.733 Y131.281 E2520.10482*84
+| Recv: ok
+| Send: N95580 G1 X128.086 Y131.208 E2520.11681*85
+| Recv: ok
+| Send: N95581 G1 X128.429 Y131.09 E2520.12887*109
+| Recv: echo:Unknown command: "2520.06204"
+| Recv: ok
+| Send: N95582 G1 X128.752 Y130.931 E2520.14085*94
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 95575
+| Recv: Resend: 95576
+2022-04-05 18:15:02,436 - octoprint.util.comm - INFO - Ignoring resend request for line 95576, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:15:04,285 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 95630, current line = 95635
+| Last lines in terminal:
+| Recv: ok
+| Send: N95626 G1 X113.367 Y114.344 E2521.09386*90
+| Recv: ok
+| Send: N95627 G1 X113.082 Y114.706 E2521.10919*85
+| Recv: ok
+| Send: N95628 G1 X112.833 Y115.095 E2521.12455*82
+| Recv: ok
+| Send: N95629 G1 X112.63 Y115.519 E2521.14019*101
+| Recv: ok
+| Send: N95630 G1 X112.49 Y115.961 E2521.15561*109
+| Recv: ok
+| Send: N95631 G1 X112.424 Y116.502 E2521.17373*94
+| Recv: ok
+| Send: N95632 G1 X112.442 Y117.05 E2521.19197*104
+| Recv: ok
+| Send: N95633 G1 X112.53 Y117.602 E2521.21056*107
+| Recv: ok
+| Send: N95634 G1 X112.677 Y118.16 E2521.22975*107
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 95629
+| Recv: Resend: 95630
+2022-04-05 18:15:04,298 - octoprint.util.comm - INFO - Ignoring resend request for line 95630, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:15:04,310 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 95630, current line = 95635
+| Last lines in terminal:
+| Send: N95634 G1 X112.677 Y118.16 E2521.22975*107
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 95629
+| Recv: Resend: 95630
+| Recv: ok
+| Send: N95630 G1 X112.49 Y115.961 E2521.15561*109
+| Recv: echo:Unknown command: "961 E2521.15561"
+| Recv: ok
+| Send: N95631 G1 X112.424 Y116.502 E2521.17373*94
+| Recv: echo:Unknown command: ".502 E2521.17373"
+| Recv: ok
+| Send: N95632 G1 X112.442 Y117.05 E2521.19197*104
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 95629
+| Recv: Resend: 95630
+| Recv: ok
+| Send: N95633 G1 X112.53 Y117.602 E2521.21056*107
+| Recv: echo:Unknown command: ".05 E2521.19197"
+| Recv: ok
+| Send: N95634 G1 X112.677 Y118.16 E2521.22975*107
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 95629
+| Recv: Resend: 95630
+2022-04-05 18:15:04,325 - octoprint.util.comm - INFO - Ignoring resend request for line 95630, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:15:04,335 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 95630, current line = 95635
+| Last lines in terminal:
+| Recv: echo:Unknown command: ".05 E2521.19197"
+| Recv: ok
+| Send: N95634 G1 X112.677 Y118.16 E2521.22975*107
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 95629
+| Recv: Resend: 95630
+| Recv: ok
+| Send: N95630 G1 X112.49 Y115.961 E2521.15561*109
+| Recv: echo:Unknown command: "15561"
+| Recv: ok
+| Send: N95631 G1 X112.424 Y116.502 E2521.17373*94
+| Recv: echo:Unknown command: "95633 G1 X112.53 Y117.602 E2521.21056"
+| Recv: ok
+| Send: N95632 G1 X112.442 Y117.05 E2521.19197*104
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 95629
+| Recv: Resend: 95630
+| Recv: ok
+| Recv: ok
+| Send: N95633 G1 X112.53 Y117.602 E2521.21056*107
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 95629
+| Recv: Resend: 95630
+2022-04-05 18:15:04,341 - octoprint.util.comm - INFO - Ignoring resend request for line 95630, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:15:04,351 - octoprint.util.comm - INFO - Ignoring resend request for line 95630, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:16:03,533 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 97476, current line = 97483
+| Last lines in terminal:
+| Send: N97476 G0 F9000 X127.67 Y86.797*78
+| Recv: echo:Unknown command: "¨Z·q¯>k¿íùúËýð_¨^ïþåõÑté·½µ×¿ýýÿ¿ÿÿþýý]üÿÿÿïÿÿÿÿõ¿Z»ØkÞý­·¿¸éýý|^äp=ë­=»?oìµý¿ù½í)oiï"
+| Recv: ok
+| Send: N97477 G0 X129.623 Y87.545*20
+| Recv: ok
+| Send: N97478 G0 X131.009 Y88.334*19
+| Recv: ok
+| Send: N97479 G0 X131.515 Y88.786*23
+| Recv:   TT::199.94199.94  //200.00200.00  BB::60.0060.00  //60.0060.00  @@::7070  BB@@::3232
+| Recv: 
+| Recv: ok
+| Send: N97480 G0 X133.669 Y91*4
+| Recv: echo:Unknown command: "µuwÿÿ¿ï½ßï¿ÿÿ¯ý×¾ÿ¯÷¿ý¯ÿ¿ÿ÷oï¿§?·û~ùh[{§=Õj±ý·ø§õm«^ý»O}õQ_õÿ]í5ÿ×þ÷õ}÷þýýµÃ¿ÏÕûïÿû¿ÿ¯ÿ"
+| Recv: ok
+| Send: N97481 G0 X133.935 Y91*3
+| Recv: echo:Unknown command: "--µ"
+| Recv: ok
+| Send: N97482 G1 F1500 X133.981 Y91.2 E2572.33645*14
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 97475
+| Recv: Resend: 97476
+2022-04-05 18:16:03,544 - octoprint.util.comm - INFO - Ignoring resend request for line 97476, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:16:03,775 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 97480, current line = 97485
+| Last lines in terminal:
+| Recv: ok
+| Send: N97478 G0 X131.009 Y88.334*19
+| Recv: echo:Unknown command: "20"
+| Recv: ok
+| Send: N97479 G0 X131.515 Y88.786*23
+| Recv: echo:Unknown command: "97478 G0 X131.009 Y88.334"
+| Recv: ok
+| Send: N97480 G0 X133.669 Y91*4
+| Recv: echo:Unknown command: "X133.935 Y91"
+| Recv: ok
+| Send: N97481 G0 X133.935 Y91*3
+| Recv: echo:Unknown command: "Q,{Ãµ»d½8¡ÿÌtE¨Øë0.)¤´Ô1 "
+| Recv: ok
+| Send: N97482 G1 F1500 X133.981 Y91.2 E2572.33645*14
+| Recv: ok
+| Send: N97483 G1 X134.075 Y91.6 E2572.34693*96
+| Recv: ok
+| Send: N97484 G1 X134.161 Y90.8 E2572.36746*103
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 97479
+| Recv: Resend: 97480
+2022-04-05 18:16:03,783 - octoprint.util.comm - INFO - Ignoring resend request for line 97480, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:16:03,920 - octoprint.util.comm - INFO - Ignoring resend request for line 97480, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:16:03,937 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 97480, current line = 97487
+| Last lines in terminal:
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 97479
+| Recv: Resend: 97480
+| Recv: ok
+| Send: N97481 G0 X133.935 Y91*3
+| Recv: ok
+| Send: N97482 G1 F1500 X133.981 Y91.2 E2572.33645*14
+| Recv: ok
+| Send: N97483 G1 X134.075 Y91.6 E2572.34693*96
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 97479
+| Recv: Resend: 97480
+| Recv: ok
+| Recv: echo:Unknown command: "0 X133.935 Y91"
+| Send: N97484 G1 X134.161 Y90.8 E2572.36746*103
+| Recv: ok
+| Send: N97485 G0 F9000 X134.201 Y90.8*116
+| Recv: echo:Unknown command: "7484 G1 X134.161 Y90.8 E2572.36746"
+| Recv: ok
+| Send: N97486 G0 X134.276 Y93*13
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 97479
+| Recv: Resend: 97480
+2022-04-05 18:16:03,954 - octoprint.util.comm - INFO - Ignoring resend request for line 97480, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:16:04,250 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 97489, current line = 97492
+| Last lines in terminal:
+| Recv: ok
+| Send: N97484 G1 X134.161 Y90.8 E2572.36746*103
+| Recv: ok
+| Send: N97485 G0 F9000 X134.201 Y90.8*116
+| Recv: echo:Unknown command: "T¶´õÕg}å¯ï¯ÿÿïÿE¦Kæ"
+| Recv: ok
+| Send: N97486 G0 X134.276 Y93*13
+| Recv: ok
+| Send: N97487 G0 X134.438 Y93*0
+| Recv: ok
+| Send: N97488 G1 F1500 X134.328 Y93.2 E2572.37489*14
+| Recv: echo:Unknown command: "DUÇ¨p-¼ÃÐ µ£ou¢¡ÛLéÝüÝèL«åÕõïÝñÿ÷£ý¿ï¯­­ÿ¯ÿïÿÿÿåÿÿïÿ¿¯ïÿ¿¿Ûýìï¯z¯ëÝu}åõ§þïÕ¯¯{í¯¯ïÿÿ¥"
+| Recv: ok
+| Send: N97489 G1 X134.479 Y95 E2572.4337*70
+| Recv: ok
+| Send: N97490 G1 F1500 E2566.4337*6
+| Recv: ok
+| Send: N97491 G0 F9000 X134.596 Y95*107
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 97488
+| Recv: Resend: 97489
+2022-04-05 18:16:05,553 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 97508, current line = 97514
+| Last lines in terminal:
+| Recv: ok
+| Send: N97507 G0 X129.51 Y94.8*47
+| Recv: ok
+| Send: N97508 G1 F1500 E2572.4337*3
+| Recv: ok
+| Send: N97509 G0 F9000 X129.224 Y94.8*126
+| Recv: ok
+| Send: N97510 G1 F1500 X129.253 Y94.6 E2572.44456*10
+| Recv: ok
+| Send: N97511 G1 X129.341 Y94 E2572.47717*118
+| Recv: ok
+| Send: N97512 G0 F9000 X129.172 Y94.001*125
+| Recv:   TT::200.00200.00  //200.00200.00  BB::60.0060.00  //60.0060.00  @@::6969  BB@@::3131
+| Recv: 
+| Recv: ok
+| Send: N97513 G0 X129.115 Y96*15
+| Recv: echo:Unknown command: "97508 G1 F1500 E2572.4337"
+| Recv: ok
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 97507
+| Recv: Resend: 97508
+2022-04-05 18:16:05,582 - octoprint.util.comm - INFO - Ignoring resend request for line 97508, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:16:08,410 - octoprint.util.comm - INFO - Ignoring resend request for line 97571, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:16:15,802 - octoprint.util.comm - INFO - Ignoring resend request for line 97714, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:16:15,814 - octoprint.util.comm - INFO - Ignoring resend request for line 97714, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:16:15,852 - octoprint.util.comm - INFO - Ignoring resend request for line 97714, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:16:15,865 - octoprint.util.comm - INFO - Ignoring resend request for line 97714, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:16:16,412 - octoprint.util.comm - INFO - Ignoring resend request for line 97718, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:16:16,711 - octoprint.util.comm - INFO - Ignoring resend request for line 97722, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:16:17,691 - octoprint.util.comm - INFO - Ignoring resend request for line 97738, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:16:18,727 - octoprint.util.comm - INFO - Ignoring resend request for line 97747, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:16:19,768 - octoprint.util.comm - INFO - Ignoring resend request for line 97797, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:16:19,793 - octoprint.util.comm - INFO - Ignoring resend request for line 97797, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:33,868 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 101784, current line = 101789
+| Last lines in terminal:
+| Send: N101782 G0 X123.008 Y98.478*39
+| Recv: echo:Unknown command: "½H0F)²ë«¤£°¥êh`DO à¨Ø":{[,Csµ«ÝDæ­"úv¯úÏ©©Ý«ÿÿÿÿï¸íçî÷õ¥ÿýÿïÿ¯ÿ÷¿ïïÿýï÷¿Õÿï¿ïÿïïçÿþ"
+| Recv: ok
+| Send: N101783 G0 X129.128 Y99.184*40
+| Recv:   TT::199.94199.94  //200.00200.00  BB::60.0160.01  //60.0060.00  @@::6969  BB@@::2727
+| Recv: 
+| Recv: ok
+| Send: N101784 G1 F3000 X127.791 Y99.542 E2678.48723*53
+| Recv: echo:Unknown command: "7»Ñ4 yÕì(¤«Ñ5ð©¥û÷«­ÔÍBI¨	ÀÑf)¿½)wu­«­}õ®íµåï­¿¯ÿ÷ïßÿÿhØïïïÿkÿÿí¿ß¿¯"
+| Recv: ok
+| Send: N101785 G0 F9000 X125.323 Y98.786*65
+| Recv: ok
+| Send: N101786 G0 X123.062 Y98.467*33
+| Recv: ok
+| Send: N101787 G0 X122.523 Y98.574*34
+| Recv: echo:Unknown command: "¥(q"
+| Recv: ok
+| Send: N101788 G0 X122.214 Y98.775*45
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 101783
+| Recv: Resend: 101784
+2022-04-05 18:18:33,876 - octoprint.util.comm - INFO - Ignoring resend request for line 101784, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:33,915 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 101786, current line = 101791
+| Last lines in terminal:
+| Recv: ok
+| Recv: ok
+| Send: N101785 G0 F9000 X125.323 Y98.786*65
+| Recv: echo:Unknown command: "91 Y99.542 E2678.48723"
+| Recv: ok
+| Send: N101786 G0 X123.062 Y98.467*33
+| Recv: echo:Unknown command: "85 G0 F9000 X125.323 Y98.786"
+| Recv: ok
+| Send: N101787 G0 X122.523 Y98.574*34
+| Recv: echo:Unknown command: "X122.214 Y98.775"
+| Recv: ok
+| Send: N101788 G0 X122.214 Y98.775*45
+| Recv: echo:Unknown command: "4¡­CY­>¨½qï?¹wÿëý¯÷¿Ïùïµý}~k|}.-?µ	¿½ÿ¯¯¿¿×ý½ÿïïÿ·ÿÿõÿ}§×?&ÞQãÿÃ­7¬Ãõy¬Ð-®	D&U$}lN"
+| Recv: ok
+| Send: N101789 G0 X121.93 Y99.196*24
+| Recv: echo:Unknown command: "Â­QVDEEgXD G/ÿV"
+| Recv: ok
+| Send: N101790 G0 X121.129 Y101.327*24
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 101785
+| Recv: Resend: 101786
+2022-04-05 18:18:34,029 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 101789, current line = 101796
+| Last lines in terminal:
+| Recv: echo:Unknown command: ")7ÅUUÔh¹BkmF¬ÙS.dÿbUfî"ïó[Û^ñ·÷÷¯W÷¯AAEDPt@¦"
+| Recv: ok
+| Send: N101789 G0 X121.93 Y99.196*24
+| Recv: echo:Unknown command: "i)3"
+| Recv: ok
+| Send: N101790 G0 X121.129 Y101.327*24
+| Recv: echo:Unknown command: "93 Y99.196"
+| Recv: ok
+| Send: N101791 G1 F3000 X116.44 Y102.584 E2678.64869*58
+| Recv: ok
+| Send: N101792 G0 F9000 X122.232 Y86.465*64
+| Recv: echo:Unknown command: ""
+| Recv: ok
+| Send: N101793 G0 X125.589 Y86.508*36
+| Recv: ok
+| Send: N101794 G0 X126.951 Y86.708*43
+| Recv: ok
+| Send: N101795 G0 X130.865 Y87.725*37
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 101788
+| Recv: Resend: 101789
+2022-04-05 18:18:34,043 - octoprint.util.comm - INFO - Ignoring resend request for line 101789, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,063 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 101789, current line = 101796
+| Last lines in terminal:
+| Recv: ok
+| Send: N101790 G0 X121.129 Y101.327*24
+| Recv: echo:Unknown command: "9 Y101.327"
+| Recv: ok
+| Send: N101791 G1 F3000 X116.44 Y102.584 E2678.64869*58
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 101788
+| Recv: Resend: 101789
+| Recv: ok
+| Send: N101792 G0 F9000 X122.232 Y86.465*64
+| Recv: echo:Unknown command: "92 G0 F9000 X122.232 Y86.465"
+| Recv: ok
+| Send: N101793 G0 X125.589 Y86.508*36
+| Recv: echo:Unknown command: "IJØ!"
+| Recv: ok
+| Send: N101794 G0 X126.951 Y86.708*43
+| Recv: echo:Unknown command: "0 G0 X121.129 Y101.327"
+| Recv: ok
+| Send: N101795 G0 X130.865 Y87.725*37
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 101788
+| Recv: Resend: 101789
+2022-04-05 18:18:34,082 - octoprint.util.comm - INFO - Ignoring resend request for line 101789, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,102 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 101790, current line = 101799
+| Last lines in terminal:
+| Recv: echo:Unknown command: "J!!¾J)¡-¥!(¥!)J"
+| Recv: ok
+| Send: N101793 G0 X125.589 Y86.508*36
+| Recv: echo:Unknown command: "cè""
+| Recv: ok
+| Send: N101794 G0 X126.951 Y86.708*43
+| Recv: echo:Unknown command: " "
+| Recv: ok
+| Send: N101795 G0 X130.865 Y87.725*37
+| Recv: echo:Unknown command: ""
+| Recv: ok
+| Send: N101796 G1 F3000 X129.926 Y86.786 E2678.69286*55
+| Recv: echo:Unknown command: ""
+| Recv: ok
+| Send: N101797 G0 F9000 X134.215 Y87.219*75
+| Recv: echo:Unknown command: "	,PEö"
+| Recv: ok
+| Send: N101798 G1 F3000 X133.353 Y90.436 E2678.80363*56
+| Recv: Error:checksum mismatch, Last Line: 101789
+| Recv: Resend: 101790
+2022-04-05 18:18:34,135 - octoprint.util.comm - INFO - Ignoring resend request for line 101790, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,157 - octoprint.util.comm - INFO - Ignoring resend request for line 101790, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,166 - octoprint.util.comm - INFO - Ignoring resend request for line 101790, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,186 - octoprint.util.comm - INFO - Ignoring resend request for line 101790, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,248 - octoprint.util.comm - INFO - Ignoring resend request for line 101794, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,305 - octoprint.util.comm - INFO - Ignoring resend request for line 101797, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,313 - octoprint.util.comm - INFO - Ignoring resend request for line 101797, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,335 - octoprint.util.comm - INFO - Ignoring resend request for line 101797, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,343 - octoprint.util.comm - INFO - Ignoring resend request for line 101797, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,640 - octoprint.util.comm - INFO - Ignoring resend request for line 101800, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,663 - octoprint.util.comm - INFO - Ignoring resend request for line 101800, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,684 - octoprint.util.comm - INFO - Ignoring resend request for line 101800, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,706 - octoprint.util.comm - INFO - Ignoring resend request for line 101800, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,712 - octoprint.util.comm - INFO - Ignoring resend request for line 101800, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,724 - octoprint.util.comm - INFO - Ignoring resend request for line 101800, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,756 - octoprint.util.comm - INFO - Ignoring resend request for line 101800, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,770 - octoprint.util.comm - INFO - Ignoring resend request for line 101800, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,779 - octoprint.util.comm - INFO - Ignoring resend request for line 101800, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:34,794 - octoprint.util.comm - INFO - Ignoring resend request for line 101800, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:35,552 - octoprint.util.comm - INFO - Ignoring resend request for line 101807, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:35,576 - octoprint.util.comm - INFO - Ignoring resend request for line 101807, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:35,583 - octoprint.util.comm - INFO - Ignoring resend request for line 101807, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:35,599 - octoprint.util.comm - INFO - Ignoring resend request for line 101807, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:35,623 - octoprint.util.comm - INFO - Ignoring resend request for line 101807, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:35,639 - octoprint.util.comm - INFO - Ignoring resend request for line 101807, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:35,659 - octoprint.util.comm - INFO - Ignoring resend request for line 101807, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:18:46,682 - octoprint.util.comm - INFO - Ignoring resend request for line 101947, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:21:20,478 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 106303, current line = 106306
+| Last lines in terminal:
+| Recv: ok
+| Send: N106298 G0 F9000 X130.736 Y128.2*122
+| Recv: ok
+| Send: N106299 G0 X125.987 Y112.276*28
+| Recv: ok
+| Send: N106300 G0 X123.747 Y110.956*18
+| Recv: ok
+| Send: N106301 G0 X123.991 Y110.028*22
+| Recv: ok
+| Send: N106302 G0 X129.8 Y109.4*16
+| Recv: ok
+| Send: N106303 G1 F1500 X128.708 Y109.4 E2786.60035*4
+| Recv: echo:Unknown command: "÷ûýÿÿ÷ÿÿÿõ½ïÿíÿÿÿÿÿÿÿÿÿ÷üwßûuÕéß¿õÿþÿ~Ýÿ÷ÿÿÿÿÿÿÿÿ¯ÿÿûÿ÷ÿÿÿÿÿûÿÿÿÿþ~ûÿ?ÿÿÿÿýÿÿÿÜ½÷ßw?"
+| Recv: ok
+| Send: N106304 G0 F9000 X129.366 Y109.2*116
+| Recv: echo:Unknown command: "aÉW¿ð^'1¼¹÷­KÝ®íßõ]õì}õU×}U?õßÝ÷ï-öª¹}=]uª¿	x÷ïÕÿWêûý¯ïÿÿ¯ÿ¿¯oÿÿÿïÿ¯ÿÿÿ¯÷ÿïÿß¯¼?z¿_ïïÿû"
+| Recv: ok
+| Send: N106305 G1 F1500 X129.587 Y109 E2786.61695*17
+| Recv: Error:checksum mismatch, Last Line: 106302
+| Recv: Resend: 106303
+2022-04-05 18:21:20,531 - octoprint.util.comm - INFO - Ignoring resend request for line 106303, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:21:20,545 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 106303, current line = 106306
+| Last lines in terminal:
+| Recv: ok
+| Send: N106304 G0 F9000 X129.366 Y109.2*116
+| Recv: echo:Unknown command: "aÉW¿ð^'1¼¹÷­KÝ®íßõ]õì}õU×}U?õßÝ÷ï-öª¹}=]uª¿	x÷ïÕÿWêûý¯ïÿÿ¯ÿ¿¯oÿÿÿïÿ¯ÿÿÿ¯÷ÿïÿß¯¼?z¿_ïïÿû"
+| Recv: ok
+| Send: N106305 G1 F1500 X129.587 Y109 E2786.61695*17
+| Recv: Error:checksum mismatch, Last Line: 106302
+| Recv: Resend: 106303
+| Recv: ok
+| Send: N106303 G1 F1500 X128.708 Y109.4 E2786.60035*4
+| Recv: echo:Unknown command: "5}ø¯¨Pó?AiÐÅwýxOÿU½^{½¨·ÿóÿý½ï¿nýßÿý÷¯ãÿ¯«ï¿úûýï¯ýÿ¿÷ýÿÿÿÿÿýÿÿ¥õÿ¿¯ÿ_ÿ¯½ÿõ?]½½ÿùUÇíL"
+| Recv: ok
+| Send: N106304 G0 F9000 X129.366 Y109.2*116
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 106302
+| Recv: Resend: 106303
+| Recv: ok
+| Send: N106305 G1 F1500 X129.587 Y109 E2786.61695*17
+| Recv: echo:Unknown command: "X128.708 Y109.4 E2786.60035"
+| Recv: ok
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 106302
+| Recv: Resend: 106303
+2022-04-05 18:21:20,568 - octoprint.util.comm - INFO - Ignoring resend request for line 106303, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:21:20,592 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 106304, current line = 106307
+| Last lines in terminal:
+| Recv: Resend: 106303
+| Recv: ok
+| Send: N106305 G1 F1500 X129.587 Y109 E2786.61695*17
+| Recv: echo:Unknown command: "X128.708 Y109.4 E2786.60035"
+| Recv: ok
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 106302
+| Recv: Resend: 106303
+| Recv: ok
+| Send: N106303 G1 F1500 X128.708 Y109.4 E2786.60035*4
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 106302
+| Recv: Resend: 106303
+| Recv: ok
+| Send: N106304 G0 F9000 X129.366 Y109.2*116
+| Recv: echo:Unknown command: "¯©Y¨fç-RM¥J5«Ê!yÏ[ýÌù½ÿÏðÈ¯wí»¯¯ïï¯ïk¯ÿÿîÿÿýÿýÿÿ¿ýÿÿ¿ýÿÿÿÿÿüÿ¾ïÿßwßßÿÿ¿/§ÿúüÝÏO·¹õþ~§5«"
+| Recv: ok
+| Send: N106305 G1 F1500 X129.587 Y109 E2786.61695*17
+| Recv: ok
+| Send: N106306 G0 F9000 X129.473 Y109*105
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 106303
+| Recv: Resend: 106304
+2022-04-05 18:21:21,555 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 106317, current line = 106323
+| Last lines in terminal:
+| Send: N106315 G0 X122.232 Y109.187*28
+| Recv: ok
+| Send: N106316 G0 X121.948 Y108.862*25
+| Recv: ok
+| Send: N106317 G0 X121.665 Y108.096*27
+| Recv: ok
+| Send: N106318 G0 X121.546 Y106.602*19
+| Recv: ok
+| Send: N106319 G0 X121.601 Y100.765*20
+| Recv: ok
+| Send: N106320 G0 X121.762 Y99.601*40
+| Recv: echo:Unknown command: "/t}]öª¯ê¯í·õ¿¿®¯ýå¨Ïï¿¯÷åÿ¯¿ÿÿ«ÿïÿ_[ÿýï÷ßÿ]îýïÿ]¿å?ÿ¿}Õùu¯ØUDR¨0SMè"
+| Recv: ok
+| Send: N106321 G0 X122.009 Y99.013*37
+| Recv:   TT::200.00200.00  //200.00200.00  BB::59.9959.99  //60.0060.00  @@::6868  BB@@::3636
+| Recv: 
+| Recv: ok
+| Send: N106322 G0 X122.214 Y98.775*46
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 106316
+| Recv: Resend: 106317
+2022-04-05 18:21:21,579 - octoprint.util.comm - INFO - Ignoring resend request for line 106317, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:21:21,585 - octoprint.util.comm - INFO - Ignoring resend request for line 106317, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:21:21,735 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 106321, current line = 106329
+| Last lines in terminal:
+| Send: N106322 G0 X122.214 Y98.775*46
+| Recv: echo:Unknown command: "uP¡1A¨9½ï¯þ¯ÏZz|.én"
+| Recv: ok
+| Send: N106323 G0 X122.523 Y98.574*47
+| Recv: echo:Unknown command: "!"
+| Recv: ok
+| Send: N106324 G0 X123.062 Y98.467*42
+| Recv: echo:Unknown command: "¹)"
+| Recv: ok
+| Send: N106325 G0 X125.323 Y98.786*39
+| Recv: echo:Unknown command: ""
+| Recv: ok
+| Send: N106326 G0 X125.907 Y98.933*40
+| Recv: echo:Unknown command: ""
+| Recv: ok
+| Send: N106327 G0 X126.497 Y99.186*41
+| Recv: ok
+| Send: N106328 G0 X127.049 Y99.519*34
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 106320
+| Recv: Resend: 106321
+2022-04-05 18:21:21,747 - octoprint.util.comm - INFO - Ignoring resend request for line 106321, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:21:21,873 - octoprint.util.comm - INFO - Ignoring resend request for line 106322, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:21:21,892 - octoprint.util.comm - INFO - Ignoring resend request for line 106322, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:21:21,915 - octoprint.util.comm - INFO - Ignoring resend request for line 106322, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:21:22,019 - octoprint.util.comm - INFO - Ignoring resend request for line 106325, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:21:22,064 - octoprint.util.comm - INFO - Ignoring resend request for line 106325, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:21:22,484 - octoprint.util.comm - INFO - Ignoring resend request for line 106331, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:21:22,720 - octoprint.util.comm - INFO - Ignoring resend request for line 106338, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:22:47,259 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-04-05 18:22:53,331 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 1385120, 'printer_state': 'PRINTING'}
+2022-04-05 18:23:07,114 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 109438, current line = 109441
+| Last lines in terminal:
+| Recv: ok
+| Send: N109432 G1 X95.088 Y126.647 E2856.45226*93
+| Recv: ok
+| Send: N109433 G1 X95.098 Y127.866 E2856.49281*80
+| Recv: ok
+| Send: N109434 G1 X95.114 Y128.792 E2856.52361*92
+| Recv: ok
+| Send: N109435 G1 X95.127 Y129.308 E2856.54078*86
+| Recv: ok
+| Send: N109436 G1 X95.151 Y129.864 E2856.55929*89
+| Recv: ok
+| Send: N109437 G1 X95.188 Y130.41 E2856.57749*97
+| Recv: ok
+| Send: N109438 G1 X95.23 Y130.787 E2856.59011*103
+| Recv: ok
+| Send: N109439 G1 X95.288 Y131.135 E2856.60184*92
+| Recv: ok
+| Send: N109440 G1 X95.474 Y131.691 E2856.62134*87
+| Recv: Error:checksum mismatch, Last Line: 109437
+| Recv: Resend: 109438
+2022-04-05 18:23:40,580 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 110485, current line = 110492
+| Last lines in terminal:
+| Send: N110484 G0 X134.215 Y90.274*40
+| Recv: ok
+| Send: N110485 G1 F1500 E2888.13377*3
+| Recv: echo:Unknown command: "wíÖÿ³»"
+| Recv: ok
+| Send: N110486 G1 F3000 X130.614 Y86.673 E2888.30315*62
+| Recv: ok
+| Send: N110487 G0 F9000 X129.835 Y87.158*75
+| Recv: ok
+| Send: N110488 G1 F3000 X131.621 Y86.679 E2888.36465*59
+| Recv: echo:Unknown command: "¨©¢¸ÐÔ±|·Ð>Ñ^Ýµ½ó³Âÿ©ëÝÿöýÕ¯÷ûïïïÿÿÿÿÿÿÿûÿÿýïÿ¿ÿ_ÿoýßçÿ&Ý/ÝÿÑÝýéõ§ûx·¥µ¿­«õ9½EeÿÙ"
+| Recv: ok
+| Send: N110489 G0 F9000 X133.769 Y86.694*78
+| Recv: ok
+| Send: N110490 G1 F3000 X132.946 Y89.765 E2888.4704*9
+| Recv: echo:Unknown command: "¨xQ²Íjçß1[B`1C%æ H"
+| Recv: ok
+| Send: N110491 G1 F1500 E2882.4704*58
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 110484
+| Recv: Resend: 110485
+2022-04-05 18:23:40,595 - octoprint.util.comm - INFO - Ignoring resend request for line 110485, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:23:40,611 - octoprint.util.comm - INFO - Ignoring resend request for line 110485, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:23:40,625 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 110485, current line = 110493
+| Last lines in terminal:
+| Send: N110487 G0 F9000 X129.835 Y87.158*75
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 110484
+| Recv: Resend: 110485
+| Recv: ok
+| Send: N110488 G1 F3000 X131.621 Y86.679 E2888.36465*59
+| Recv: echo:Unknown command: "21 Y86.679 E2888.36465"
+| Recv: ok
+| Send: N110489 G0 F9000 X133.769 Y86.694*78
+| Recv: echo:Unknown command: "90 G1 F3000 X132.946 Y89.765 E2888.4704"
+| Recv: ok
+| Send: N110490 G1 F3000 X132.946 Y89.765 E2888.4704*9
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 110484
+| Recv: Resend: 110485
+| Recv: ok
+| Send: N110491 G1 F1500 E2882.4704*58
+| Recv: echo:Unknown command: "0486 G1 F3000 X130.614 Y86.673 E2888.30315"
+| Recv: ok
+| Send: N110492 G0 F9000 X131.009 Y88.334*70
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 110484
+| Recv: Resend: 110485
+2022-04-05 18:23:40,647 - octoprint.util.comm - INFO - Ignoring resend request for line 110485, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:23:40,658 - octoprint.util.comm - INFO - Ignoring resend request for line 110485, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:23:40,672 - octoprint.util.comm - INFO - Ignoring resend request for line 110485, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:23:40,691 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 110485, current line = 110495
+| Last lines in terminal:
+| Send: N110489 G0 F9000 X133.769 Y86.694*78
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 110484
+| Recv: Resend: 110485
+| Recv: ok
+| Send: N110490 G1 F3000 X132.946 Y89.765 E2888.4704*9
+| Recv: echo:Unknown command: "$'#`AT¹âbc¾®#ýºïåõ×Y¿ïz¿ÿÿÿþÿÿÿ¿ÿ÷ÿÿøÑ-kø "
+| Recv: ok
+| Send: N110491 G1 F1500 E2882.4704*58
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 110484
+| Recv: Resend: 110485
+| Recv: ok
+| Send: N110492 G0 F9000 X131.009 Y88.334*70
+| Recv: echo:Unknown command: "#°¥èEDÍÕXQ«qVC±ñbcb(R¡rtT÷Ú¼¯çßûú"
+| Recv: ok
+| Send: N110493 G0 X129.623 Y87.545*32
+| Recv: echo:Unknown command: "F3000 X132.946 Y89.765 E2888.4704"
+| Recv: ok
+| Send: N110494 G0 X128.085 Y86.965*35
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 110484
+| Recv: Resend: 110485
+2022-04-05 18:23:40,697 - octoprint.util.comm - INFO - Ignoring resend request for line 110485, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:23:47,552 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 110566, current line = 110569
+| Last lines in terminal:
+| Send: N110561 G0 F9000 X89.433 Y113.065*64
+| Recv: ok
+| Send: N110562 G1 F3000 X95.912 Y88.887 E2891.12671*6
+| Recv: echo:Unknown command: "ÿ¿ÿ¿ÿÿÿÿÿÿÿÿÿÿýý½Ý¯üÿÿ¯ÿÿÿÿïå¯ý­/ýïßÿïÿ÷ÿ¿»þÿ«ÿÿ¯¯ÿúÿïÿÿÿß¿­ïÿ·ÿõ¯ÿÿýÿÿïÿÿÿÿÿýÿÿ¿ÿ¿ÿ¿ïï¿ÿÕ"
+| Recv: ok
+| Send: N110563 G0 F9000 X96.701 Y86.701*118
+| Recv: ok
+| Send: N110564 G1 F3000 X101.371 Y91.371 E2891.34638*48
+| Recv: ok
+| Send: N110565 G0 F9000 X102.387 Y94.512*69
+| Recv: ok
+| Send: N110566 G1 F3000 X101.385 Y94.781 E2891.38088*54
+| Recv: ok
+| Send: N110567 G0 F9000 X99.517 Y95.281*119
+| Recv:   TT::199.55199.55  //200.00200.00  BB::60.0060.00  //60.0060.00  @@::7777  BB@@::3333
+| Recv: 
+| Recv: ok
+| Send: N110568 G1 F3000 X92.896 Y97.055 E2891.60887*13
+| Recv: Error:checksum mismatch, Last Line: 110565
+| Recv: Resend: 110566
+2022-04-05 18:23:47,568 - octoprint.util.comm - INFO - Ignoring resend request for line 110566, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:23:47,685 - octoprint.util.comm - INFO - Ignoring resend request for line 110566, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:23:47,752 - octoprint.util.comm - INFO - Ignoring resend request for line 110566, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:23:47,766 - octoprint.util.comm - INFO - Ignoring resend request for line 110566, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:23:47,812 - octoprint.util.comm - INFO - Ignoring resend request for line 110566, that still originates from lines we sent before we got the first resend request
+2022-04-05 18:23:48,086 - octoprint.util.comm - WARNING - Should resend line 110566 but no sufficient history is available, can't resend. Line to resend is 110566, current line is 110652, line history has 50 entries.
+2022-04-05 18:23:48,086 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Error"
+2022-04-05 18:23:48,091 - octoprint.util.comm - INFO - Force-sending M112 to the printer
+2022-04-05 18:23:48,118 - octoprint.util.comm - INFO - Changing monitoring state from "Error" to "Offline after error"
+2022-04-05 18:23:48,161 - octoprint.plugins.action_command_notification - INFO - Notifications cleared
+2022-04-05 18:23:48,644 - octoprint.util.comm - INFO - Firmware didn't send an 'ok' with their resend request. That's a known bug with some firmware variants out there. Simulating an ok to continue...
+2022-04-05 18:23:48,684 - octoprint.plugins.tracking - INFO - Sent tracking event commerror_resend, payload: {'commerror_text': "Should resend line 110566 but no sufficient history is available, can't resend"}
+2022-04-05 18:23:49,159 - octoprint.plugins.tracking - INFO - Sent tracking event print_failed, payload: {'origin': 'local', 'file': 'f5e4cd5e6ae7f5edbd66a45ab0da28d725871f6d', 'elapsed': 4246, 'reason': 'error', 'commerror_text': "Should resend line 110566 but no sufficient history is available, can't resend"}
+2022-04-05 18:37:47,264 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-04-05 18:37:53,315 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 1386020, 'printer_state': 'OFFLINE'}
+2022-04-05 18:52:47,274 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-04-05 18:52:53,340 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 1386920, 'printer_state': 'OFFLINE'}
+2022-04-05 19:07:47,276 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-04-05 19:07:53,361 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 1387820, 'printer_state': 'OFFLINE'}
+2022-04-05 19:22:47,287 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2022-04-05 19:22:53,322 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 1388720, 'printer_state': 'OFFLINE'}
+2022-04-05 19:28:00,483 - octoprint.server.util.flask - INFO - Passively logging in user Kevin from ::1
+2022-04-05 19:28:00,484 - octoprint.access.users - INFO - Cleaning up user session BFBB92639488422A86BE1D9FCF88A53B for user Kevin
+2022-04-05 19:28:00,484 - octoprint.access.users - INFO - Logged out user: Kevin
+2022-04-05 19:28:00,484 - octoprint.access.users - INFO - Cleaning up user session 8672CC9328EE4B9A899C0F926C598B0A for user Kevin
+2022-04-05 19:28:00,484 - octoprint.server.util.sockjs - INFO - User Kevin logged out, logging out on socket
+2022-04-05 19:28:00,486 - octoprint.access.users - INFO - Logged out user: Kevin
+2022-04-05 19:28:00,486 - octoprint.access.users - INFO - Cleaning up user session B6BE56CA20F5452C9885FA975F2BF30B for user Kevin
+2022-04-05 19:28:00,486 - octoprint.access.users - INFO - Logged out user: Kevin
+2022-04-05 19:28:00,486 - octoprint.access.users - INFO - Cleaning up user session D9D704BDB507400FA0FF25232DA24841 for user Kevin
+2022-04-05 19:28:00,487 - octoprint.access.users - INFO - Logged out user: Kevin
+2022-04-05 19:28:00,487 - octoprint.access.users - INFO - Cleaning up user session D3314641996848DB978E201EBD4101E5 for user Kevin
+2022-04-05 19:28:00,487 - octoprint.access.users - INFO - Logged out user: Kevin
+2022-04-05 19:28:00,487 - octoprint.access.users - INFO - Cleaning up user session 344617517BD548A4BF76386B89FFF54A for user Kevin
+2022-04-05 19:28:00,488 - octoprint.access.users - INFO - Logged out user: Kevin
+2022-04-05 19:28:00,489 - octoprint.access.users - INFO - Logged in user: Kevin
+2022-04-05 19:28:01,213 - octoprint.server.util.flask.PreemptiveCache - INFO - Adding entry for / and {'path': '/', 'base_url': 'http://localhost:5000/', 'query_string': 'l10n=en', '_timestamp': 1649208481.2126446, '_count': 1}
+2022-04-05 19:28:13,411 - octoprint.server.util.flask - INFO - Passively logging in user Kevin from 192.168.0.128
+2022-04-05 19:28:13,412 - octoprint.access.users - INFO - Logged in user: Kevin
+2022-04-05 19:28:13,472 - octoprint.server.util.sockjs - INFO - User Kevin logged in on the socket from client 192.168.0.128
+2022-04-05 19:28:17,408 - octoprint.server.util.sockjs - INFO - New connection from client: ::1
+2022-04-05 19:28:17,744 - octoprint.server.util.flask - INFO - Passively logging in user Kevin from ::1
+2022-04-05 19:28:17,744 - octoprint.access.users - INFO - Logged in user: Kevin
+2022-04-05 19:28:18,103 - octoprint.plugins.softwareupdate - INFO - Fetching check overlays from https://plugins.octoprint.org/update_check_overlay.json
+2022-04-05 19:28:21,017 - octoprint.server.util.sockjs - INFO - User Kevin logged in on the socket from client ::1
+2022-04-05 19:28:21,746 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 0.51s
+2022-04-05 19:28:22,250 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 0.48s
+2022-04-05 19:28:22,853 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 0.52s
+2022-04-05 19:28:23,399 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 0.5s
+2022-04-05 19:28:24,069 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 0.52s
+2022-04-05 19:28:25,251 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2022-04-05 19:28:26,246 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2022-04-05 19:28:26,801 - octoprint.plugins.tracking - INFO - Sent tracking event webui_load, payload: {'browser_name': 'Chrome', 'browser_version': '100.0.4896.75', 'os_name': 'Windows', 'os_version': '10'}
+2022-04-05 19:28:54,648 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from https://plugins.octoprint.org/plugins.json
